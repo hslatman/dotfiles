@@ -11,3 +11,6 @@ zstyle :compinstall filename '/Users/herman/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
