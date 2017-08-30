@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.iterm2_shell_integration.zsh: iterm2/iterm2_shell_integration.zsh
     ~/.zshrc: zshrc
     ~/.gitconfig: git/gitconfig
 
