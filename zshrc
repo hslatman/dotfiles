@@ -15,4 +15,8 @@ compinit
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
+# test for iterm2 shell integration and integrate it
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# include some custom aliases
+test -e "${HOME}/.aliases" && source "${HOME}/.aliases"

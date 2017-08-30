@@ -1,0 +1,7 @@
+# --- Aliases ---
+
+alias pac='php app/console'
+alias pbc='php bin/console'
+alias gs='git status'
+alias gl='git log'
+alias gl1='git log --oneline'
