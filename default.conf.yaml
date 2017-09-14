@@ -8,6 +8,8 @@
     ~/.aliases: aliases
     ~/.iterm2_shell_integration.zsh: iterm2/iterm2_shell_integration.zsh
     ~/.zshrc: zshrc
+    ~/.gitignore.global: git/gitignore.global
+    ~/.gitmessage.template: git/gitmessage.template
     ~/.gitconfig: git/gitconfig
 
 - shell:
