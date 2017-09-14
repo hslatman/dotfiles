@@ -65,7 +65,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,9 +104,5 @@ export NVM_DIR="$HOME/.nvm"
 # test for iterm2 shell integration and integrate it
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# configure zsh-completions
-#plugins=(zsh-completions)
-#autoload -U compinit && compinit
-
 # include some custom aliases
-#test -e "${HOME}/.aliases" && source "${HOME}/.aliases"
+test -e "${HOME}/.aliases" && source "${HOME}/.aliases"
