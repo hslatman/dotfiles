@@ -10,4 +10,6 @@
   trustExitCode = true 
 [commit]
   template = ~/.gitmessage.template
+
+  # Make sure to set a signingkey in the user.signingkey directive in .gitignore.local!
   gpgsign = true
