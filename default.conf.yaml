@@ -4,6 +4,9 @@
 
 - clean: ['~']
 
+- shell:
+  - [mkdir -p ~/.config/neofetch]
+
 - link:
     ~/.aliases: aliases
     ~/.iterm2_shell_integration.zsh: iterm2/iterm2_shell_integration.zsh
@@ -12,6 +15,7 @@
     ~/.gitignore.global: git/gitignore.global
     ~/.gitmessage.template: git/gitmessage.template
     ~/.gitconfig: git/gitconfig
+    ~/.config/neofetch/config.conf: neofetch.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
