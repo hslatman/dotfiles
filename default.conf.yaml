@@ -5,7 +5,7 @@
 - clean: ['~']
 
 - shell:
-  - [mkdir -p ~/.config/neofetch]
+  - [mkdir -p ~/.bin; mkdir -p ~/.config/neofetch, Preparing folders]
 
 - link:
     ~/.aliases: aliases
@@ -16,6 +16,8 @@
     ~/.gitmessage.template: git/gitmessage.template
     ~/.gitconfig: git/gitconfig
     ~/.config/neofetch/config.conf: neofetch.conf
+    ~/.bin/p4merge: bin/p4merge    
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [chmod +x ~/.bin/p4merge, Installing p4merge script]

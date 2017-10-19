@@ -13,3 +13,8 @@
 
   # Make sure to set a signingkey in the user.signingkey directive in .gitignore.local!
   gpgsign = true
+[merge]
+	tool = p4merge
+[mergetool]
+	keepTemporaries = false
+	prompt = false
