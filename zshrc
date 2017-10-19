@@ -109,3 +109,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # include some custom aliases
 test -e "${HOME}/.aliases" && source "${HOME}/.aliases"
+
+# add the local, dotbot managed, custom bin folder to path
+export PATH="${HOME}/.bin:$PATH"
