@@ -17,7 +17,9 @@
     ~/.gitconfig: git/gitconfig
     ~/.config/neofetch/config.conf: neofetch.conf
     ~/.bin/p4merge: bin/p4merge    
+    ~/.bin/sphp: bin/sphp
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [chmod +x ~/.bin/p4merge, Installing p4merge script]
+  - [chmod +x ~/.bin/sphp, Installing PHP version switcher]
