@@ -5,3 +5,5 @@ alias pbc='php bin/console'
 alias gs='git status'
 alias gl='git log'
 alias gl1='git log --oneline'
+
+alias py3env='python3 -m venv'
