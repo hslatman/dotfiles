@@ -7,3 +7,4 @@ alias gl='git log'
 alias gl1='git log --oneline'
 
 alias py3env='python3 -m venv'
+alias py2env='python2 -m virtualenv'
