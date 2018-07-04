@@ -19,6 +19,7 @@
     ~/.bin/p4merge: bin/p4merge    
     ~/.bin/sphp: bin/sphp
     ~/.bin/restart-docker.sh: bin/restart-docker.sh
+    ~/.gnupg/gpg-agent.conf: gpg/gpg-agent.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
