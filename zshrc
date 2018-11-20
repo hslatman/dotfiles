@@ -113,6 +113,9 @@ test -e "${HOME}/.aliases" && source "${HOME}/.aliases"
 # add the local, dotbot managed, custom bin folder to path
 export PATH="${HOME}/.bin:$PATH"
 
+# add fastlane to the path
+export PATH="$HOME/.fastlane/bin:$PATH"
+
 # enable the (default) Docker Machine
 eval "$(docker-machine env default)"
 
