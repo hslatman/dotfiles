@@ -120,7 +120,7 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
 # enable the (default) Docker Machine
-eval "$(docker-machine env default)"
+#eval "$(docker-machine env default)"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/herman/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/herman/Downloads/google-cloud-sdk/path.zsh.inc'; fi
