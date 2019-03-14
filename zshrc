@@ -116,6 +116,9 @@ export PATH="${HOME}/.bin:$PATH"
 # add fastlane to the path
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+# add Android dev tools to the path
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+
 # enable the (default) Docker Machine
 eval "$(docker-machine env default)"
 
