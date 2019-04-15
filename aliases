@@ -6,9 +6,15 @@ alias gs='git status'
 alias gl='git log'
 alias gl1='git log --oneline'
 
+# Python Virtual Environments
 alias py3env='python3 -m venv'
 alias py2env='python2 -m virtualenv'
 
+# Git Viewer
 alias gitview='/usr/local/bin/grv'
 
+# Utility function for XLM diffing
 alias xmldiff='function _xmldiff(){ diff <(xmllint --c14n $1) <(xmllint --c14n $2); };_xmldiff'
+
+# Doxygen alias to the binary included in the Mac OS X application
+alias doxygen='/Applications/Doxygen.app/Contents/Resources/doxygen'
