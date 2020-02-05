@@ -18,3 +18,7 @@ alias xmldiff='function _xmldiff(){ diff <(xmllint --c14n $1) <(xmllint --c14n $
 
 # Doxygen alias to the binary included in the Mac OS X application
 alias doxygen='/Applications/Doxygen.app/Contents/Resources/doxygen'
+
+alias sf='symfony'
+alias sfc='sf composer'
+alias sfp='sf php'
